@@ -52,6 +52,11 @@ group :development do
   gem 'spring'
 
   gem 'sqlite3'
+  gem 'capistrano', '~> 3.4'
+	gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
+	gem 'capistrano-rails', '~> 1.1', '>= 1.1.7'
+	gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
+	gem 'capistrano-passenger'
 end
 
 group :production do
